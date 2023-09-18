@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>caffe landing</title>
+        <meta charset="utf-8"/>
+        <style>
+            body{
+                background-image: url("../imagens/WhatsApp\ Image\ 2023-09-15\ at\ 22.50.40.jpeg");
+                background-repeat: no-repeat;
+                background-position: right top;
+                background-size: cover;
+            }
+            main{
+                float: left;
+                width:30%;
+                align-items: c;
+            }
+            h1{
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 50px;
+                color: white;
+            }
+            h2{
+                text-align: center;
+                font-size: 14px;
+                color: white;
+            }
+            p{
+                font-size: 12px;
+                text-align: center;
+                color: white;
+            }
+            label{
+                font-size: 18px;
+                color: white;
+            }
+            select, button{
+                display: block;
+                width: 100%;
+                margin-top: 1px;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+            input{
+                display: block;
+                width: 94%;
+                margin-top: 1px;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+            button{
+                background-color: #b3856e;
+                cursor:pointer;
+                color: #502615;
+                border:solid 1px #502615;
+            }
+            button:hover{
+                background-color:#502615;
+                color:#b3856e
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>O Refúgio Aromático</h1>
+            <h2>Onde Cada Xícara Conta</h2>
+            <p>Nossa cafeteria é mais do que apenas um local para se deliciar com café. Somos um refúgio aromático onde cada xícara conta uma história. No coração da cidade, nossa cafeteira convida você a entrar em um mundo de sabores ricos e momentos acolhedores. Descubra o prazer da paixão pelo café em cada gole, acompanhado de um ambiente aconchegante que torna cada visita única</p>
+            <form name="cafe">
+                <input type="text" placeholder="teu nome" name="name"/>
+                <label>escolha seu cafe</label>
+                <select name="caffe-type">
+                    <option>:: seleione o cafe::</option>
+                    <option>passado</option>
+                    <option>cappuccino</option>
+                    <option>mokaccino</option>
+                    <option>café com leite</option>
+                </select>
+                <label>quantas xicaras</label>
+                <input type="number" name="qtd"/>
+                <button>confirmar pedido</button>
+            </form>
+        </main>
+
+
+    </body>
+</html>
